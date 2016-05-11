@@ -1,0 +1,40 @@
+maj 11, 2016 4:23:43 PM SERVER.Server startServer
+INFO: Sever started. Listening on: 9090, bound to: localhost
+maj 11, 2016 4:23:52 PM SERVER.Server startServer
+INFO: Client is connected!
+maj 11, 2016 4:23:52 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#ANONYMOUS
+maj 11, 2016 4:23:52 PM CLIENT.ClientManager run
+INFO: Received Message: USER#JOHN
+maj 11, 2016 4:23:52 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN
+maj 11, 2016 4:23:52 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#SERVER - #JOHN - CONNECTED
+maj 11, 2016 4:24:03 PM SERVER.Server startServer
+INFO: Client is connected!
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN,ANONYMOUS
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN,ANONYMOUS
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager run
+INFO: Received Message: USER#BEN
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN,BEN
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN,BEN
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#SERVER - #BEN - CONNECTED
+maj 11, 2016 4:24:03 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#SERVER - #BEN - CONNECTED
+maj 11, 2016 4:24:11 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#BEN#HEJ 
+maj 11, 2016 4:24:11 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#BEN#HEJ 
+maj 11, 2016 4:24:14 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: USERLIST#JOHN
+maj 11, 2016 4:24:14 PM CLIENT.ClientManager sendMessage
+INFO: Received Message: MSG#SERVER - #BEN - DISCONNECTED
+maj 11, 2016 4:24:14 PM CLIENT.ClientManager run
+INFO: A Connection Closed!
+maj 11, 2016 4:24:15 PM CLIENT.ClientManager run
+INFO: A Connection Closed!
